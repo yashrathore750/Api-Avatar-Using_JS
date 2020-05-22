@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API project- Avatar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple hero unit, where you can get your own Avatar for your name.</p>
+        <hr class="my-4">
+        <p>It uses API for assigning Avatar to the name you enter. </p>
+    </div>
+    
+    <div class="container">
+
+        <h1>Let's Find Out Your Avatar</h1>
+        <h1>Add name in the input below:</h1>
+        <hr class="my-4">
+
+        
+        <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-lg">Enter Your Name</span>
+            </div>
+            <input type="text" id="name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        </div>
+        <h6> We'll never share your name with anyone else.</h6>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="male" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+              Male
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="female" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Female
+            </label>
+          </div>
+
+        <div>
+            <img src="https://freesvg.org/img/Linux-Avatar.png" width="200" height="200" alt="" class="imgChange">
+        </div>
+        <button type="button" id="btn" class="btn btn-secondary btn-lg my-2 ">CLICK ME! To Get Your Own Avatar</button>
+
+    </div>
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<script src="api.js">
+</script>
+
+
+</html>
